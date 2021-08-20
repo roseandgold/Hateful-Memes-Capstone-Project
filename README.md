@@ -11,5 +11,5 @@ In order to achieve our goal we used the Hateful Memes Challenge dataset which w
 
 
 ### CNN Model
-https://github.com/roseandgold/HatefulMemesProject/blob/main/CNN%20Model/Capstone%20CNN%20Model%20Diagram3.png
+<img src=https://github.com/roseandgold/HatefulMemesProject/blob/main/CNN%20Model/Capstone%20CNN%20Model%20Diagram3.png>
  * Preprocess the Images for CNN.ipynb - 
