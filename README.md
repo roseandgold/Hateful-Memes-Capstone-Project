@@ -23,7 +23,18 @@ To test out this model yourself you need the below files as well as the Hateful 
 Another model we decided to try was a pretrained BERT model using only the text from the memes. BERT stands for Bidirectional Encoder Representations from Transformers. According to the *BERT - transformers 4.7.0* documentation "unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers."
 
 To test out the BERT model you need the below notebook and the Hateful Memes Challenge Datasets
- * BERT_Model.ipynb - uses the meme text and a pretrained BERT model to create a classifier. If you want to use or look at our best trained model, that can be downloaded here: https://drive.google.com/drive/folders/1KfpguSuk_Zz_6rAbRJCeVnS296u0SQfl?usp=sharing
+ * BERT_Model.ipynb - uses the meme text and a pretrained BERT model to create a classifier. If you want to use or look at our best trained model it can be downloaded here: https://drive.google.com/drive/folders/1KfpguSuk_Zz_6rAbRJCeVnS296u0SQfl?usp=sharing
 
 ### Multimodal Model
+Lastly, we created our multimodal model using an early fusion feed forward neural network. We embedded the text data using BERT and the image data using a pretrained ResNet
 
+<img src=https://github.com/roseandgold/HatefulMemesProject/blob/main/Multimodal%20Model/Capstone%20Multimodal%20Model%20Diagram2.png>
+
+To test out the Multimodal Model you need the below notebook and the Hateful Memes Challenge Dataset.
+ * Modular_Multimodal_Framework.ipynb - train and test the multimodal model. If you want to use or look at our best trained model it can be downloaded here: https://drive.google.com/drive/folders/1p0cnxL8U6zs9_dh1A6q2Sh76Ew3u59Ro?usp=sharing
+
+### Results
+ * Can Machines Detect Hate Speech in Memes?.pdf - a write up of our project which includes visualizations and results
+
+### Requirements
+ * resuirements.txt - includes all the necessary packages to run the above notebooks
