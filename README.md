@@ -10,7 +10,7 @@ In order to achieve our goal we used the Hateful Memes Challenge dataset which w
   * Exploratory Data Analysis.ipynb - includes visual exploration of the training dataset. training_combo.p and training_labels_combo.p can be created using the Preprocess_Meme_Image_and_Text_Data.ipynb file or downloaded here: https://drive.google.com/drive/folders/1gUuicGA6Gnzh1hYdAsE9powrQYuCTvyp?usp=sharing
 
 
-### CNN Model
+### CNN Model Folder
 The first thing we tried was to create a classifier simply based on the image data. In order to do this we trained a Convolutional Neural Network since this form of model can capture the spatial information in images. 
 <img src=https://github.com/roseandgold/HatefulMemesProject/blob/main/CNN%20Model/Capstone%20CNN%20Model%20Diagram3.png>
 
@@ -19,13 +19,13 @@ To test out this model yourself you need the below files as well as the Hateful 
  * CNN Image Model.ipynb - train and test the CNN model. Requires the preprocessed images which can either be obatined by running the Preprocess the Images for CNN.ipynb notebook or downloaded here: https://drive.google.com/drive/folders/1l5QVobAOw52l5ApcVYYceOhT9TzFwVx5?usp=sharing 
  * model_0.533.h5 - This was the best model we obtained. This can be used in the CNN Image Model.ipynb notebook to get the AUROC score and create the ROC curve
 
-### BERT Model
+### BERT Model Folder
 Another model we decided to try was a pretrained BERT model using only the text from the memes. BERT stands for Bidirectional Encoder Representations from Transformers. According to the *BERT - transformers 4.7.0* documentation "unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers."
 
 To test out the BERT model you need the below notebook and the Hateful Memes Challenge Datasets
  * BERT_Model.ipynb - uses the meme text and a pretrained BERT model to create a classifier. If you want to use or look at our best trained model it can be downloaded here: https://drive.google.com/drive/folders/1KfpguSuk_Zz_6rAbRJCeVnS296u0SQfl?usp=sharing
 
-### Multimodal Model
+### Multimodal Model Folder
 Lastly, we created our multimodal model using an early fusion feed forward neural network. We embedded the text data using BERT and the image data using a pretrained ResNet
 
 <img src=https://github.com/roseandgold/HatefulMemesProject/blob/main/Multimodal%20Model/Capstone%20Multimodal%20Model%20Diagram2.png>
