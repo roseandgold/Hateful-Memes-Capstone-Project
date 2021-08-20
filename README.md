@@ -17,4 +17,13 @@ The first thing we tried was to create a classifier simply based on the image da
 To test out this model yourself you need the below files as well as the Hateful Memes Challenge Datasets
  * Preprocess the Images for CNN.ipynb - preprocesses the meme images so they are all 200x200x3. Outputs the data as numpy arrays to a pickle file. 
  * CNN Image Model.ipynb - train and test the CNN model. Requires the preprocessed images which can either be obatined by running the Preprocess the Images for CNN.ipynb notebook or downloaded here: https://drive.google.com/drive/folders/1l5QVobAOw52l5ApcVYYceOhT9TzFwVx5?usp=sharing 
- * model_0.533.h5 - This was the best model we obtained. This can be used in the CNN Image Model.ipynb to get the AUROC score and create the ROC curve
+ * model_0.533.h5 - This was the best model we obtained. This can be used in the CNN Image Model.ipynb notebook to get the AUROC score and create the ROC curve
+
+### BERT Model
+Another model we decided to try was a pretrained BERT model using only the text from the memes. BERT stands for Bidirectional Encoder Representations from Transformers. According to the *BERT - transformers 4.7.0* documentation "unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers."
+
+To test out the BERT model you need the below notebook and the Hateful Memes Challenge Datasets
+ * BERT_Model.ipynb - uses the meme text and a pretrained BERT model to create a classifier. If you want to use or look at our best trained model, that can be downloaded here: https://drive.google.com/drive/folders/1KfpguSuk_Zz_6rAbRJCeVnS296u0SQfl?usp=sharing
+
+### Multimodal Model
+
